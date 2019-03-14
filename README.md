@@ -79,10 +79,9 @@ A nota final (NF) na disciplina será calculada da seguinte maneira:
 NF = NP * 0.3 + NL * 0.3 + NPF * 0.4
 
 Sendo, 
-NF: Nota final
-NP: Nota da Prova
-NL: média aritmética das listas de exercícios
-NPF: Nota do projeto final
+* NP: Nota da Prova
+* NL: média aritmética das listas de exercícios
+* NPF: Nota do projeto final
 
 A Aprovação ou Reprovação do Curso de Projeto com Circuitos Reconfiguráveis será obtida se:
 * Aprovação: se NF ≥ 5,0 e se percentual de faltas (PF) < 25%. Onde PF é dado pelo número de aulas com faltas registradas dividido pelo número de aulas ministradas.
