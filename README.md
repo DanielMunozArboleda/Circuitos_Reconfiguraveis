@@ -8,7 +8,7 @@ O curso é composto de aulas teóricas e de experimentos em laboratório. As aul
 VHDL, arquitetura de computadores, microcontroladores
 
 ## Programa
-1. Introdução: hardware reconfigurável e sua evolução histórica:
+### 1. Introdução: hardware reconfigurável e sua evolução histórica:
 *	Por que usar Circuitos Reconfiguráveis?
 *	Implementação de circuitos digitais
 *	Comparação entre ASICs, FPGAs, Microprocessadores
