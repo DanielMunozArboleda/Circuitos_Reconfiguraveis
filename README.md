@@ -24,11 +24,11 @@ VHDL, arquitetura de computadores, microcontroladores
 *	Descrição hardware de decodificadores e muxes
 *	Simulação de circuitos combinacionais.
 ### 4.	Projeto Lógico Sequencial em FPGAs (nivelamento):
-•	Descrição hardware de flip-flops, latches e registradores
-•	Descrição hardware de máquinas de estados finitos
-•	Descrição hardware de somadores, comparadores, shifters, contadores, multiplicadores.
-•	Simulação de circuitos sequenciais
-V. Uso de Blocos de Propriedade Intelectual (IP-Cores):
+*	Descrição hardware de flip-flops, latches e registradores
+*	Descrição hardware de máquinas de estados finitos
+*	Descrição hardware de somadores, comparadores, shifters, contadores, multiplicadores.
+*	Simulação de circuitos sequenciais
+### 5. Uso de Blocos de Propriedade Intelectual (IP-Cores):
 •	Aritmética de ponto fixo vs aritmética de ponto flutuante
 •	Instanciação de IPs
 •	Configuração de IPs
