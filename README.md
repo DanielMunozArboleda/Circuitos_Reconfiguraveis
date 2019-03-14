@@ -159,6 +159,6 @@ Data  | Dia    | Aula                                                           
 02/07 |	Terça  |Tópico especial SoC: reconfiguração dinâmica parcial		|
 04/07 | Quinta |Tópico especial SoC: reconfiguração dinâmica parcial 		|
 09/07 | Terça  |Apresentação dos protótipos do projeto e entrega do relatório	|
-11/07 | Quinta |								|
-12/07 | Terça  |Revisão de notas						|
+11/07 | Quinta |Revisão de notas						|
+12/07 | Terça  |								|
 	
