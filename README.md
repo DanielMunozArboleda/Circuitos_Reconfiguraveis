@@ -128,75 +128,38 @@ Data  | Dia    | Aula                                                           
 ------|--------|----------------------------------------------------------------|------------
 14/03 | Quinta | Apresentação do curso                                          | 
 19/03 |	Terça  | Níveis de Abstração, Arquitetura FPGA, Fluxo Projeto no Vivado |
-------|--------|----------------------------------------------------------------|------------
 21/03 | Quinta | Revisão projeto combinacional em VHDL                          |
 26/03 |	Terça  | Revisão projeto sequencial em VHDL	                        | 
-------|--------|----------------------------------------------------------------|------------
-
-28/03
-02/04	Quinta
-Terça	Simulação comportamental automática
-Revisão FSMs em VHDL	
-04/04
-09/04	Quinta
-Terça	Aritmética de ponto fixo vs ponto flutuante
-IP-Cores: circuito digital usando ponto fixo	
-11/04
-16/04	Quinta
-Terça	IP-Cores: circuito digital usando ponto flutuante
-IP-Cores: circuito digital usando ponto flutuante	Ponto Controle 1
-18/04
-23/04	Quinta
-Terça	Simulação: estimação do erro. Precisão como parâmetro de projeto
-Análise e otimização de consumo de recursos usando FPGAs	
-25/04
-30/04	Quinta
-Terça	Análise e otimização do tempo de execução em HW – timming
-Análise e otimização do tempo de execução em HW – timming	
-02/05
-07/05	Quinta
-Terça	Estimação de consumo de potência usando FPGAs
-Prova	
-
-09/05
-14/05	Quinta
-Terça	Co-projeto HW/SW: Analise de profile usando Gprof 
-MicroBlaze – arquitetura interna 	Entrega prova
-
-16/05
-21/05	Quinta
-Terça	Barramento AXI
-Projeto com MicroBlaze/AXI/co-processadores	Ponto Controle 2
-23/05
-28/05	Quinta
-Terça	ARM/AXI - arquitetura interna.
-Projeto com ARM/AXI. 	
-30/05
-04/06	Quinta
-Terça	Projeto com ARM/AXI/co-processadores. Aula demonstrativa
-Projeto com ARM e biblioteca RTOS.	
-06/06
-11/06	Quinta
-Terça	Tópico especial SoC: projeto de tolerância a falha com FPGAs
-Tópico especial SoC: conceitos de projeto com tolerância a falha	
-13/06
-18/06	Quinta
-Terça	Tópico especial SoC: conversor XADC 
-Tópico especial SoC: conversor XADC 	Ponto Controle 3
-20/06
-25/06	Quinta
-Terça	Feriado: Corpus Christi.
-Tópico especial: Síntese de alto nível	
-27/06
-02/07	Quinta
-Terça	Tópico especial: Síntese de alto nível 
-Tópico especial SoC: reconfiguração dinâmica parcial	
-04/07
-09/07	Quinta
-Terça	Tópico especial SoC: reconfiguração dinâmica parcial 
-Apresentação dos protótipos do projeto e entrega do relatório	
-
-11/07
-12/07	Quinta
-Terça	Revisão de notas
+28/03 | Quinta | Simulação comportamental automática                            |
+02/04 |	Terça  | Revisão FSMs em VHDL	                                        |
+04/04 | Quinta | Aritmética de ponto fixo vs ponto flutuante                    | 
+09/04 |	Terça  | IP-Cores: circuito digital usando ponto fixo	                |
+11/04 | Quinta | IP-Cores: circuito digital usando ponto flutuante              |
+16/04 |	Terça  | IP-Cores: circuito digital usando ponto flutuante	        | Ponto Controle 1
+18/04 | Quinta |Simulação: estimação do erro. Precisão como parâmetro de projeto|
+23/04 |	Terça  |Análise e otimização de consumo de recursos usando FPGAs	|
+25/04 | Quinta |Análise e otimização do tempo de execução em HW – timming	|
+30/04 |	Terça  |Análise e otimização do tempo de execução em HW – timming	|
+02/05 |	Quinta |Estimação de consumo de potência usando FPGAs			|
+07/05 | Terça  |Prova								|
+09/05 | Quinta |Co-projeto HW/SW: Analise de profile usando Gprof 		|Entrega prova
+14/05 | Terça  |MicroBlaze – arquitetura interna 				|
+16/05 | Quinta |Barramento AXI							|
+21/05 |	Terça  |Projeto com MicroBlaze/AXI/co-processadores			|Ponto Controle 2
+23/05 | Quinta |ARM/AXI - arquitetura interna					|
+28/05 |	Terça  |Projeto com ARM/AXI						|
+30/05 | Quinta |Projeto com ARM/AXI/co-processadores.				|
+04/06 |	Terça  |Projeto com ARM e biblioteca RTOS.				|
+06/06 | Quinta |Conceitos de projeto com tolerância a falha			|
+11/06 |	Terça  |Projeto de tolerância a falha com FPGAs				|
+13/06 | Quinta |Tópico especial SoC: conversor XADC 				|	
+18/06 | Terça  |Tópico especial SoC: conversor XADC 				|Ponto Controle 3
+20/06 | Quinta |Feriado: Corpus Christi.					|
+25/06 |	Terça  |Tópico especial: Síntese de alto nível				|
+27/06 | Quinta |Tópico especial: Síntese de alto nível 				|
+02/07 |	Terça  |Tópico especial SoC: reconfiguração dinâmica parcial		|
+04/07 | Quinta |Tópico especial SoC: reconfiguração dinâmica parcial 		|
+09/07 | Terça  |Apresentação dos protótipos do projeto e entrega do relatório	|
+11/07 | Quinta |								|
+12/07 | Terça  |Revisão de notas						|
 	
