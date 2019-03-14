@@ -76,7 +76,7 @@ São esperados os seguintes resultados em cada ponto de controle:
 
 A nota final (NF) na disciplina será calculada da seguinte maneira:
 
-NF = NP*0.3 + NL*0.3 + NPF*0.4
+NF = NP * 0.3 + NL * 0.3 + NPF * 0.4
 
 Sendo, 
 NF: Nota final
@@ -148,13 +148,13 @@ Data  | Dia    | Aula                                                           
 21/05 |	Terça  |Projeto com MicroBlaze/AXI/co-processadores			|
 23/05 | Quinta |ARM/AXI - arquitetura interna					|
 28/05 |	Terça  |Projeto com ARM/AXI						|
-30/05 | Quinta |Projeto com ARM/AXI/co-processadores.				|
-04/06 |	Terça  |Projeto com ARM e biblioteca RTOS.				|
+30/05 | Quinta |Projeto com ARM/AXI/co-processadores				|
+04/06 |	Terça  |Projeto com ARM e biblioteca RTOS				|
 06/06 | Quinta |Conceitos de projeto com tolerância a falha			|
 11/06 |	Terça  |Projeto de tolerância a falha com FPGAs				|
 13/06 | Quinta |Tópico especial SoC: conversor XADC 				|Ponto Controle 3
 18/06 | Terça  |Tópico especial SoC: conversor XADC 				|
-20/06 | Quinta |Feriado: Corpus Christi.					|
+20/06 | Quinta |Feriado: Corpus Christi						|
 25/06 |	Terça  |Tópico especial: Síntese de alto nível				|
 27/06 | Quinta |Tópico especial: Síntese de alto nível 				|
 02/07 |	Terça  |Tópico especial SoC: reconfiguração dinâmica parcial		|
