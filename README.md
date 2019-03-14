@@ -63,11 +63,11 @@ VHDL, arquitetura de computadores, microcontroladores
 ## Avaliação
 A avaliação é constituída por uma prova, listas de exercícios e um projeto final. 
 
-A prova consistirá na implementação e caracterização de um circuito digital usando projeto RTL. A implementação será realizada em sala de aula (duração de 1 hora e 50 minutos) e a caracterização será feita em casa e deverá ser entregue 48 horas depois.
+A __prova__ consistirá na implementação e caracterização de um circuito digital usando projeto RTL. A implementação será realizada em sala de aula (duração de 1 hora e 50 minutos) e a caracterização será feita em casa e deverá ser entregue 48 horas depois.
 
-As listas de exercícios são individuais. Deverão ser entregues os arquivos necessários para replicar os resultados. Os principais resultados e conclusões deverão ser anotados em uma folha de dados fornecida pelo professor.
+As __listas de exercícios__ são individuais. Deverão ser entregues os arquivos necessários para replicar os resultados. Os principais resultados e conclusões deverão ser anotados em uma folha de dados fornecida pelo professor.
 
-Os estudantes deverão formar duplas para elaborar o projeto final, cobrindo os tópicos vistos em sala de aula. Será entregue um protótipo em funcionamento acompanhado de um relatório científico no formato IEEE. Os projetos serão propostos pelos estudantes e devem abordar implementações em hardware e software. O andamento do projeto final será acompanhado através de três pontos de controle (PC).
+Os estudantes deverão formar duplas para elaborar o __projeto final__, cobrindo os tópicos vistos em sala de aula. Será entregue um protótipo em funcionamento acompanhado de um relatório científico no formato IEEE. Os projetos serão propostos pelos estudantes e devem abordar implementações em hardware e software. O andamento do projeto final será acompanhado através de três pontos de controle (PC).
 
 São esperados os seguintes resultados em cada ponto de controle:
 * PC1: proposta do projeto (justificativa, objetivos, metodologia, revisão bibliográfica)
@@ -79,7 +79,7 @@ A nota final (NF) na disciplina será calculada da seguinte maneira:
 NF = NP * 0.3 + NL * 0.3 + NPF * 0.4
 
 Sendo, 
-* NP: Nota da Prova
+* NP: Nota da prova
 * NL: média aritmética das listas de exercícios
 * NPF: Nota do projeto final
 
@@ -94,13 +94,13 @@ Quinta-feira entre 08:00 e 09:50 Lab. SS – UED - FGA
 
 ## Avisos
 * A entrega de arquivos das prova, listas e projeto final deverá ser feita através usando repositório do github.
-* Cada estudante deve criar um ÚNICO repositório que será usado para esta disciplina durante todo o semestre. 
+* Cada estudante deve criar um __ÚNICO__ repositório que será usado para esta disciplina durante todo o semestre. 
 * Organize as entregas de arquivos usando pastas. Uma pasta para a prova, outra pasta para listas de exercícios e uma pasta para cada ponto de controle.
 * A prova e lista de exercícios são individuais. 
 * Não serão aceitos arquivos entregues fora do prazo para a prova e listas de exercícios.
 * Haverá penalidade de 1 ponto por dia de atrás na entrega dos pontos de controle do projeto final.
 * Usar template IEEE Conference para realização do relatório técnico.
-* O relatório técnico do projeto final deverá conter as seguintes seções: resumo, introdução, desenvolvimento, resultados e conclusões. No resumo deve-se descrever com poucas palavras (máximo 350 palavras) o projeto de forma geral e os resultados alcançados. Na introdução deve-se descrever o problema a ser resolvido e a revisão bibliográfica. No desenvolvimento deve-se incluir um diagrama de blocos que descreva a arquitetura de hardware e software proposta incluindo as interfaces de conexão entre módulos, diagramas de máquinas de estado (se aplica), e todos os parâmetros adotados para a solução encontrada. Nos resultados deve-se explicar quais foram os protocolos de teste e os experimentos realizados para validar o desenvolvimento. Deve-se incluir o consumo de recursos de hardware, estimativa do consumo de energia, estimativa de desempenho em frequência de operação, prints de simulação, etc. Na conclusão deve-se seguir uma analise crítica entre os resultados esperados os resultados alcançados. Em caso de divergência explicar como poderiam ser melhorados os resultados, quais modificações podem ser feitas na solução proposta para otimizar o circuito.
+* O relatório técnico do projeto final deverá conter as seguintes seções: resumo, introdução, desenvolvimento, resultados, conclusões e bibliografia. No __resumo__ deve-se descrever com poucas palavras (máximo 350 palavras) o projeto de forma geral e os resultados alcançados. Na __introdução__ deve-se descrever o problema a ser resolvido e a revisão bibliográfica. No __desenvolvimento__ deve-se incluir um diagrama de blocos que descreva a arquitetura de hardware e software proposta incluindo as interfaces de conexão entre módulos, diagramas de máquinas de estado (se aplica), e todos os parâmetros adotados para a solução encontrada. Nos __resultados__ deve-se explicar quais foram os protocolos de teste e os experimentos realizados para validar o desenvolvimento. Deve-se incluir o consumo de recursos de hardware, estimativa do consumo de energia, estimativa de desempenho em frequência de operação, prints de simulação, etc. Na __conclusão__ deve-se seguir uma analise crítica entre os resultados esperados os resultados alcançados. Em caso de divergência explicar como poderiam ser melhorados os resultados, quais modificações podem ser feitas na solução proposta para otimizar o circuito. A __bibliografia__ deve mostrar as principais referências usadas na revisão da literatura. __Nota:__ Não é necessário colocar como anexo o código fonte.
 * Os FPGAs não poderão ser usados fora da sala de aula, mas não podem ser retirados da FGA. 
 * Criar um usuário no site da Xilinx (www.xilinx.com)
 * Instalar ferramenta Vivado e SDK (Software Development Kit) nos notebooks disponíveis. Nota: usar licença webpack edition.
