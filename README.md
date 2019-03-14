@@ -12,18 +12,18 @@ VHDL, arquitetura de computadores, microcontroladores
 *	Por que usar Circuitos Reconfiguráveis?
 *	Implementação de circuitos digitais
 *	Comparação entre ASICs, FPGAs, Microprocessadores
-2.	Conceitos básicos de Projeto com Dispositivos Lógicos Programáveis (nivelamento):
+### 2.	Conceitos básicos de Projeto com Dispositivos Lógicos Programáveis (nivelamento):
 *	Níveis de abstração de projeto. Domínios de representação
 *	Fluxo de projeto
 *	Linguagens de descrição de hardware
 *	Arquitetura Interna de um FPGA. Plataformas comerciais e tecnologias
 *	Ferramentas EDA. Ferramentas de simulação comportamental e funcional 
-III. Projeto Lógico Combinacional em FPGAs (nivelamento):
-•	Descrição hardware de funções booleanas
-•	Descrição hardware de processos combinacionais
-•	Descrição hardware de decodificadores e muxes
-•	Simulação de circuitos combinacionais.
-IV.	Projeto Lógico Sequencial em FPGAs (nivelamento):
+### 3. Projeto Lógico Combinacional em FPGAs (nivelamento):
+*	Descrição hardware de funções booleanas
+*	Descrição hardware de processos combinacionais
+*	Descrição hardware de decodificadores e muxes
+*	Simulação de circuitos combinacionais.
+### 4.	Projeto Lógico Sequencial em FPGAs (nivelamento):
 •	Descrição hardware de flip-flops, latches e registradores
 •	Descrição hardware de máquinas de estados finitos
 •	Descrição hardware de somadores, comparadores, shifters, contadores, multiplicadores.
