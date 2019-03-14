@@ -90,6 +90,7 @@ A Aprovação ou Reprovação do Curso de Projeto com Circuitos Reconfiguráveis
 
 ## Horário de aulas
 Terça-feira entre 08:00 e 09:50 Lab. SS – UED - FGA
+
 Quinta-feira entre 08:00 e 09:50 Lab. SS – UED - FGA
 
 ## Avisos
@@ -101,10 +102,9 @@ Quinta-feira entre 08:00 e 09:50 Lab. SS – UED - FGA
 * Haverá penalidade de 1 ponto por dia de atrás na entrega dos pontos de controle do projeto final.
 * Usar template IEEE Conference para realização do relatório técnico.
 * O relatório técnico do projeto final deverá conter as seguintes seções: resumo, introdução, desenvolvimento, resultados e conclusões. No resumo deve-se descrever com poucas palavras (máximo 350 palavras) o projeto de forma geral e os resultados alcançados. Na introdução deve-se descrever o problema a ser resolvido e a revisão bibliográfica. No desenvolvimento deve-se incluir um diagrama de blocos que descreva a arquitetura de hardware e software proposta incluindo as interfaces de conexão entre módulos, diagramas de máquinas de estado (se aplica), e todos os parâmetros adotados para a solução encontrada. Nos resultados deve-se explicar quais foram os protocolos de teste e os experimentos realizados para validar o desenvolvimento. Deve-se incluir o consumo de recursos de hardware, estimativa do consumo de energia, estimativa de desempenho em frequência de operação, prints de simulação, etc. Na conclusão deve-se seguir uma analise crítica entre os resultados esperados os resultados alcançados. Em caso de divergência explicar como poderiam ser melhorados os resultados, quais modificações podem ser feitas na solução proposta para otimizar o circuito.
-•	Os FPGAs não poderão ser usados fora da sala de aula, mas não podem ser retirados da FGA. 
-•	Criar um usuário no site da Xilinx (www.xilinx.com)
-•	Instalar ferramenta Vivado e SDK (Software Development Kit) nos notebooks disponíveis. 
-Nota: usar licença webpack edition.
+* Os FPGAs não poderão ser usados fora da sala de aula, mas não podem ser retirados da FGA. 
+* Criar um usuário no site da Xilinx (www.xilinx.com)
+* Instalar ferramenta Vivado e SDK (Software Development Kit) nos notebooks disponíveis. Nota: usar licença webpack edition.
 
 ## Bibliografia
 Básica:
@@ -124,15 +124,15 @@ Complementar:
 [11] Zeidman, B., Designing with FPGAs and CPLDs, CMP Technology. (disponível na Minha Biblioteca)
 
 ## Proposta de calendário
-Data	Aula	Observação
-14/03
-19/03	Quinta
-Terça	Apresentação do curso
-Níveis de Abstração, Arquitetura FPGA, Fluxo Projeto no Vivado	
-21/03
-26/03	Quinta
-Terça	Revisão projeto combinacional em VHDL
-Revisão projeto sequencial em VHDL	
+Data  | Dia    | Aula                                                           | Observação 
+------|--------|----------------------------------------------------------------|------------
+14/03 | Quinta | Apresentação do curso                                          | 
+19/03 |	Terça  | Níveis de Abstração, Arquitetura FPGA, Fluxo Projeto no Vivado |
+------|--------|----------------------------------------------------------------|------------
+21/03 | Quinta | Revisão projeto combinacional em VHDL                          |
+26/03 |	Terça  | Revisão projeto sequencial em VHDL	                        | 
+------|--------|----------------------------------------------------------------|------------
+
 28/03
 02/04	Quinta
 Terça	Simulação comportamental automática
