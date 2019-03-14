@@ -8,16 +8,16 @@ O curso é composto de aulas teóricas e de experimentos em laboratório. As aul
 VHDL, arquitetura de computadores, microcontroladores
 
 ## Programa
-I. Introdução: hardware reconfigurável e sua evolução histórica:
-•	Por que usar Circuitos Reconfiguráveis?
-•	Implementação de circuitos digitais
-•	Comparação entre ASICs, FPGAs, Microprocessadores
-II.	Conceitos básicos de Projeto com Dispositivos Lógicos Programáveis (nivelamento):
-•	Níveis de abstração de projeto. Domínios de representação
-•	Fluxo de projeto
-•	Linguagens de descrição de hardware
-•	Arquitetura Interna de um FPGA. Plataformas comerciais e tecnologias
-•	Ferramentas EDA. Ferramentas de simulação comportamental e funcional 
+1. Introdução: hardware reconfigurável e sua evolução histórica:
+*	Por que usar Circuitos Reconfiguráveis?
+*	Implementação de circuitos digitais
+*	Comparação entre ASICs, FPGAs, Microprocessadores
+2.	Conceitos básicos de Projeto com Dispositivos Lógicos Programáveis (nivelamento):
+*	Níveis de abstração de projeto. Domínios de representação
+*	Fluxo de projeto
+*	Linguagens de descrição de hardware
+*	Arquitetura Interna de um FPGA. Plataformas comerciais e tecnologias
+*	Ferramentas EDA. Ferramentas de simulação comportamental e funcional 
 III. Projeto Lógico Combinacional em FPGAs (nivelamento):
 •	Descrição hardware de funções booleanas
 •	Descrição hardware de processos combinacionais
