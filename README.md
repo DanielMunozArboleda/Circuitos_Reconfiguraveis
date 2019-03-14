@@ -108,20 +108,20 @@ Quinta-feira entre 08:00 e 09:50 Lab. SS – UED - FGA
 
 ## Bibliografia
 Básica:
-[1] Sass, R.S., Andrew, G., Embedded Systems Design with Platform FPGAs : Principles and Practices, Elsevier Science and Technology, 2010. (disponível na Minha Biblioteca)
-[2] Hauck,  S.,  DeHon, A,  Systems on Silicon : Reconfigurable Computing : The Theory and Practice of FPGA-Based Computation, Morgan Kaufman Publishers, 2007. (disponível na Minha Biblioteca)
-[3] Vahid, F., Digital Design, John Wiley & Sons, 2007.
-[4] Chu, P.P., FPGA Prototyping by VHDL Examples: Xilinx Spartan-3 Version, Wiley, 2008
+* Sass, R.S., Andrew, G., Embedded Systems Design with Platform FPGAs : Principles and Practices, Elsevier Science and Technology, 2010. (disponível na Minha Biblioteca)
+* Hauck,  S.,  DeHon, A,  Systems on Silicon : Reconfigurable Computing : The Theory and Practice of FPGA-Based Computation, Morgan Kaufman Publishers, 2007. (disponível na Minha Biblioteca)
+* Vahid, F., Digital Design, John Wiley & Sons, 2007.
+* Chu, P.P., FPGA Prototyping by VHDL Examples: Xilinx Spartan-3 Version, Wiley, 2008
 
 Complementar:
-[4] Pedroni, V., Circuit Design with VHDL, MIT Press, 2004. (disponível na Minha Biblioteca)
-[5] Brown, S., Vranesic, Z., Fundamentals of Digital Logic with VHDL Design, 2nd ed, McGraw Hill, 2005.
-[6] Kilts, S., Advanced FPGA Design Architecture, Implementation and Optimization, John Wiley & Sons, 2007. (disponível na Minha Biblioteca)
-[7] Bobda, C., Introduction to Reconfigurable Computing: Architectures, Algorithms and Applications, Springer, 2008. (disponível na Minha Biblioteca)
-[8] Wakerly, J., Digital Design Principles & Practices, 3rd ed, Prentice Hall, 1999.
-[9] Cardoso, J., Hubner, M., Reconfigurable Computing : From FPGAs to Hardware/Software Codesign, Spriger, 2011 (disponível na Minha Biblioteca)
-[10] Maya, G., Paul, S., Reconfigurable Computing : Accelerating Computation with Field-Programmable Gate Arrays, Springer, 2005. (disponível na Minha Biblioteca)
-[11] Zeidman, B., Designing with FPGAs and CPLDs, CMP Technology. (disponível na Minha Biblioteca)
+* Pedroni, V., Circuit Design with VHDL, MIT Press, 2004. (disponível na Minha Biblioteca)
+* Brown, S., Vranesic, Z., Fundamentals of Digital Logic with VHDL Design, 2nd ed, McGraw Hill, 2005.
+* Kilts, S., Advanced FPGA Design Architecture, Implementation and Optimization, John Wiley & Sons, 2007. (disponível na Minha Biblioteca)
+* Bobda, C., Introduction to Reconfigurable Computing: Architectures, Algorithms and Applications, Springer, 2008. (disponível na Minha Biblioteca)
+* Wakerly, J., Digital Design Principles & Practices, 3rd ed, Prentice Hall, 1999.
+* Cardoso, J., Hubner, M., Reconfigurable Computing : From FPGAs to Hardware/Software Codesign, Spriger, 2011 (disponível na Minha Biblioteca)
+* Maya, G., Paul, S., Reconfigurable Computing : Accelerating Computation with Field-Programmable Gate Arrays, Springer, 2005. (disponível na Minha Biblioteca)
+* Zeidman, B., Designing with FPGAs and CPLDs, CMP Technology. (disponível na Minha Biblioteca)
 
 ## Proposta de calendário
 Data  | Dia    | Aula                                                           | Observação 
@@ -134,8 +134,8 @@ Data  | Dia    | Aula                                                           
 02/04 |	Terça  | Revisão FSMs em VHDL	                                        |
 04/04 | Quinta | Aritmética de ponto fixo vs ponto flutuante                    | 
 09/04 |	Terça  | IP-Cores: circuito digital usando ponto fixo	                |
-11/04 | Quinta | IP-Cores: circuito digital usando ponto flutuante              |
-16/04 |	Terça  | IP-Cores: circuito digital usando ponto flutuante	        | Ponto Controle 1
+11/04 | Quinta | IP-Cores: circuito digital usando ponto flutuante              |Ponto Controle 1
+16/04 |	Terça  | IP-Cores: circuito digital usando ponto flutuante	        | 
 18/04 | Quinta |Simulação: estimação do erro. Precisão como parâmetro de projeto|
 23/04 |	Terça  |Análise e otimização de consumo de recursos usando FPGAs	|
 25/04 | Quinta |Análise e otimização do tempo de execução em HW – timming	|
@@ -144,16 +144,16 @@ Data  | Dia    | Aula                                                           
 07/05 | Terça  |Prova								|
 09/05 | Quinta |Co-projeto HW/SW: Analise de profile usando Gprof 		|Entrega prova
 14/05 | Terça  |MicroBlaze – arquitetura interna 				|
-16/05 | Quinta |Barramento AXI							|
-21/05 |	Terça  |Projeto com MicroBlaze/AXI/co-processadores			|Ponto Controle 2
+16/05 | Quinta |Barramento AXI							|Ponto Controle 2
+21/05 |	Terça  |Projeto com MicroBlaze/AXI/co-processadores			|
 23/05 | Quinta |ARM/AXI - arquitetura interna					|
 28/05 |	Terça  |Projeto com ARM/AXI						|
 30/05 | Quinta |Projeto com ARM/AXI/co-processadores.				|
 04/06 |	Terça  |Projeto com ARM e biblioteca RTOS.				|
 06/06 | Quinta |Conceitos de projeto com tolerância a falha			|
 11/06 |	Terça  |Projeto de tolerância a falha com FPGAs				|
-13/06 | Quinta |Tópico especial SoC: conversor XADC 				|	
-18/06 | Terça  |Tópico especial SoC: conversor XADC 				|Ponto Controle 3
+13/06 | Quinta |Tópico especial SoC: conversor XADC 				|Ponto Controle 3
+18/06 | Terça  |Tópico especial SoC: conversor XADC 				|
 20/06 | Quinta |Feriado: Corpus Christi.					|
 25/06 |	Terça  |Tópico especial: Síntese de alto nível				|
 27/06 | Quinta |Tópico especial: Síntese de alto nível 				|
