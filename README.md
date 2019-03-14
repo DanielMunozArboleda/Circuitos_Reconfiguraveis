@@ -29,36 +29,36 @@ VHDL, arquitetura de computadores, microcontroladores
 *	Descrição hardware de somadores, comparadores, shifters, contadores, multiplicadores.
 *	Simulação de circuitos sequenciais
 ### 5. Uso de Blocos de Propriedade Intelectual (IP-Cores):
-•	Aritmética de ponto fixo vs aritmética de ponto flutuante
-•	Instanciação de IPs
-•	Configuração de IPs
-VI.	Simulação automática:
-•	Criação de Testbenches para leitura e escrita de dados
-•	Simulação funcional
-•	Ferramentas de co-simulação
-VII. Análise de Arquiteturas de Hardware:
-•	Estimação do consumo de recursos de hardware, Otimização e trafeoff.
-•	Estimação de tempo de execução. Análise de Timming. Otimização e trafeoff.
-•	Estimação do consumo de potência. Otimização e trafeoff.
-VIII.	Projeto com o microprocessador ARM e MicroBlaze:
-•	Arquitetura do ARM na plataforma Zynq 
-•	Barramentos AXI, LMB e PLB
-•	Arquitetura do MicroBlaze
-•	Projeto com ARM
-•	Projeto com MicroBlaze
-IX.	Co-projeto Hardware-Software:
-•	Análise de desempenho. Code Profiling usando GPROF
-•	Particionamento HW/SW.
-•	Aceleradores de hardware no ARM e MicroBlaze
-•	Sistema em Chip usando ARM e MicroBlaze
-•	Uso da biblioteca RTOS
-•	Análise de desempenho HW/SW
-•	Estimação do consumo de recursos
-X. Tópicos especiais com circuitos reconfiguráveis:
-•	Uso do conversor XADC
-•	Técnicas de tolerância a falha
-•	Modelagem em alto nível de abstração (HLS)
-•	Reconfiguração dinâmica parcial
+*	Aritmética de ponto fixo vs aritmética de ponto flutuante
+*	Instanciação de IPs
+*	Configuração de IPs
+### 6.	Simulação automática:
+*	Criação de Testbenches para leitura e escrita de dados
+*	Simulação funcional
+*	Ferramentas de co-simulação
+### 7. Análise de Arquiteturas de Hardware:
+*	Estimação do consumo de recursos de hardware, Otimização e trafeoff.
+*	Estimação de tempo de execução. Análise de Timming. Otimização e trafeoff.
+*	Estimação do consumo de potência. Otimização e trafeoff.
+### 8.	Projeto com o microprocessador ARM e MicroBlaze:
+*	Arquitetura do ARM na plataforma Zynq 
+*	Barramentos AXI, LMB e PLB
+*	Arquitetura do MicroBlaze
+*	Projeto com ARM
+*	Projeto com MicroBlaze
+### 9.	Co-projeto Hardware-Software:
+*	Análise de desempenho. Code Profiling usando GPROF
+*	Particionamento HW/SW.
+*	Aceleradores de hardware no ARM e MicroBlaze
+*	Sistema em Chip usando ARM e MicroBlaze
+*	Uso da biblioteca RTOS
+*	Análise de desempenho HW/SW
+*	Estimação do consumo de recursos
+### 10. Tópicos especiais com circuitos reconfiguráveis:
+*	Uso do conversor XADC
+*	Técnicas de tolerância a falha
+*	Modelagem em alto nível de abstração (HLS)
+*	Reconfiguração dinâmica parcial
 
 ## Avaliação
 A avaliação é constituída por uma prova, listas de exercícios e um projeto final. 
@@ -70,9 +70,9 @@ As listas de exercícios são individuais. Deverão ser entregues os arquivos ne
 Os estudantes deverão formar duplas para elaborar o projeto final, cobrindo os tópicos vistos em sala de aula. Será entregue um protótipo em funcionamento acompanhado de um relatório científico no formato IEEE. Os projetos serão propostos pelos estudantes e devem abordar implementações em hardware e software. O andamento do projeto final será acompanhado através de três pontos de controle (PC).
 
 São esperados os seguintes resultados em cada ponto de controle:
-•	PC1: proposta do projeto (justificativa, objetivos, metodologia, revisão bibliográfica)
-•	PC2: implementação e caracterização dos módulos de hardware (VHDL).
-•	PC3: co-projeto HW/SW, implementação da(s) aplicações de software e conexão com co-processadores.
+* PC1: proposta do projeto (justificativa, objetivos, metodologia, revisão bibliográfica)
+* PC2: implementação e caracterização dos módulos de hardware (VHDL).
+* PC3: co-projeto HW/SW, implementação da(s) aplicações de software e conexão com co-processadores.
 
 A nota final (NF) na disciplina será calculada da seguinte maneira:
 
@@ -85,22 +85,22 @@ NL: média aritmética das listas de exercícios
 NPF: Nota do projeto final
 
 A Aprovação ou Reprovação do Curso de Projeto com Circuitos Reconfiguráveis será obtida se:
-•	Aprovação: se NF ≥ 5,0 e se percentual de faltas (PF) < 25%. Onde PF é dado pelo número de aulas com faltas registradas dividido pelo número de aulas ministradas.
-•	Reprovação: se NF < 5,0 ou se PF > 25%, então o aluno será considerado reprovado por nota ou por falta.
+* Aprovação: se NF ≥ 5,0 e se percentual de faltas (PF) < 25%. Onde PF é dado pelo número de aulas com faltas registradas dividido pelo número de aulas ministradas.
+* Reprovação: se NF < 5,0 ou se PF > 25%, então o aluno será considerado reprovado por nota ou por falta.
 
 ## Horário de aulas
 Terça-feira entre 08:00 e 09:50 Lab. SS – UED - FGA
 Quinta-feira entre 08:00 e 09:50 Lab. SS – UED - FGA
 
 ## Avisos
-•	A entrega de arquivos das prova, listas e projeto final deverá ser feita através usando repositório do github.
-•	Cada estudante deve criar um ÚNICO repositório que será usado para esta disciplina durante todo o semestre. 
-•	Organize as entregas de arquivos usando pastas. Uma pasta para a prova, outra pasta para listas de exercícios e uma pasta para cada ponto de controle.
-•	A prova e lista de exercícios são individuais. 
-•	Não serão aceitos arquivos entregues fora do prazo para a prova e listas de exercícios.
-•	Haverá penalidade de 1 ponto por dia de atrás na entrega dos pontos de controle do projeto final.
-•	Usar template IEEE Conference para realização do relatório técnico.
-•	O relatório técnico do projeto final deverá conter as seguintes seções: resumo, introdução, desenvolvimento, resultados e conclusões. No resumo deve-se descrever com poucas palavras (máximo 350 palavras) o projeto de forma geral e os resultados alcançados. Na introdução deve-se descrever o problema a ser resolvido e a revisão bibliográfica. No desenvolvimento deve-se incluir um diagrama de blocos que descreva a arquitetura de hardware e software proposta incluindo as interfaces de conexão entre módulos, diagramas de máquinas de estado (se aplica), e todos os parâmetros adotados para a solução encontrada. Nos resultados deve-se explicar quais foram os protocolos de teste e os experimentos realizados para validar o desenvolvimento. Deve-se incluir o consumo de recursos de hardware, estimativa do consumo de energia, estimativa de desempenho em frequência de operação, prints de simulação, etc. Na conclusão deve-se seguir uma analise crítica entre os resultados esperados os resultados alcançados. Em caso de divergência explicar como poderiam ser melhorados os resultados, quais modificações podem ser feitas na solução proposta para otimizar o circuito.
+* A entrega de arquivos das prova, listas e projeto final deverá ser feita através usando repositório do github.
+* Cada estudante deve criar um ÚNICO repositório que será usado para esta disciplina durante todo o semestre. 
+* Organize as entregas de arquivos usando pastas. Uma pasta para a prova, outra pasta para listas de exercícios e uma pasta para cada ponto de controle.
+* A prova e lista de exercícios são individuais. 
+* Não serão aceitos arquivos entregues fora do prazo para a prova e listas de exercícios.
+* Haverá penalidade de 1 ponto por dia de atrás na entrega dos pontos de controle do projeto final.
+* Usar template IEEE Conference para realização do relatório técnico.
+* O relatório técnico do projeto final deverá conter as seguintes seções: resumo, introdução, desenvolvimento, resultados e conclusões. No resumo deve-se descrever com poucas palavras (máximo 350 palavras) o projeto de forma geral e os resultados alcançados. Na introdução deve-se descrever o problema a ser resolvido e a revisão bibliográfica. No desenvolvimento deve-se incluir um diagrama de blocos que descreva a arquitetura de hardware e software proposta incluindo as interfaces de conexão entre módulos, diagramas de máquinas de estado (se aplica), e todos os parâmetros adotados para a solução encontrada. Nos resultados deve-se explicar quais foram os protocolos de teste e os experimentos realizados para validar o desenvolvimento. Deve-se incluir o consumo de recursos de hardware, estimativa do consumo de energia, estimativa de desempenho em frequência de operação, prints de simulação, etc. Na conclusão deve-se seguir uma analise crítica entre os resultados esperados os resultados alcançados. Em caso de divergência explicar como poderiam ser melhorados os resultados, quais modificações podem ser feitas na solução proposta para otimizar o circuito.
 •	Os FPGAs não poderão ser usados fora da sala de aula, mas não podem ser retirados da FGA. 
 •	Criar um usuário no site da Xilinx (www.xilinx.com)
 •	Instalar ferramenta Vivado e SDK (Software Development Kit) nos notebooks disponíveis. 
