@@ -1,0 +1,11 @@
+22:13:13 INFO  : Launching XSDB server: xsdb.bat -interactive C:\FPGAprojects\PCR2019\ublaze_axifpmul\ublaze_axifpmul.sdk\temp_xsdb_launch_script.tcl
+22:13:15 INFO  : XSDB server has started successfully.
+22:13:15 INFO  : Processing command line option -hwspec C:/FPGAprojects/PCR2019/ublaze_axifpmul/ublaze_axifpmul.sdk/ublaze_axifpmul_wrapper.hdf.
+22:16:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:17:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A27B44A" && level==0} -index 0' command is executed.
+22:17:06 INFO  : FPGA configured successfully with bitstream "C:/FPGAprojects/PCR2019/ublaze_axifpmul/ublaze_axifpmul.sdk/ublaze_axifpmul_wrapper_hw_platform_0/download.bit"
+22:17:27 INFO  : Processor reset is completed for microblaze_0
+22:18:08 INFO  : Processor reset is completed for microblaze_0
+22:18:35 INFO  : Processor reset is completed for microblaze_0
+22:18:57 INFO  : Processor reset is completed for microblaze_0
+22:40:14 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

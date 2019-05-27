@@ -1,0 +1,28 @@
+22:19:17 **** Auto Build of configuration Debug for project axifpmul ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../axifpmul_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.6 -mno-xl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:6:0:
+../../axifpmul_bsp/microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../axifpmul_bsp/microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: axifpmul.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../axifpmul_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.6 -mno-xl-soft-mul -Wl,--no-relax -o "axifpmul.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: axifpmul.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size axifpmul.elf  |tee "axifpmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8478	    356	   3124	  11958	   2eb6	axifpmul.elf
+'Finished building: axifpmul.elf.size'
+' '
+
+22:19:19 Build Finished (took 2s.493ms)
+
