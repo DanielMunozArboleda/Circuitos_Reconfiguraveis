@@ -1,0 +1,8 @@
+04:41:02 INFO  : Launching XSDB server: xsdb.bat -interactive C:\FPGAprojects\PCR2019\ublaze_axiRNA\ublaze_axiRNA.sdk\temp_xsdb_launch_script.tcl
+04:41:08 INFO  : XSDB server has started successfully.
+04:41:18 INFO  : Processing command line option -hwspec C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper.hdf.
+05:08:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+05:08:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A27B44A" && level==0} -index 0' command is executed.
+05:08:38 INFO  : FPGA configured successfully with bitstream "C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/download.bit"
+05:09:06 INFO  : Processor reset is completed for microblaze_0
+05:10:00 INFO  : Processor reset is completed for microblaze_0

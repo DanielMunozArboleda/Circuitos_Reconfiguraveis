@@ -1,0 +1,2471 @@
+!SESSION 2019-05-28 04:39:52.893 -----------------------------------------------
+eclipse.buildId=2016.2
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:08.789
+!MESSAGE XSDB Command: [::hsi::utils::init_repo], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:18.257
+!MESSAGE XSDB command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:18.366
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:19.194
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:19.257
+!MESSAGE XSDB Command: [::hsi::utils::get_design_properties -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:19.272
+!MESSAGE XSDB command with result: [::hsi::utils::get_design_properties -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7a35t",
+"family": "artix7",
+"timestamp": "Tue May 28 04:14:42 2019",
+"vivado_version": "2016.2",
+}]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:19.272
+!MESSAGE XSDB Command: [::hsi::utils::get_all_periphs -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:19.288
+!MESSAGE XSDB command with result: [::hsi::utils::get_all_periphs -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi4_RNA443_0": {"hier_name": "axi4_RNA443_0",
+"type": "axi4_RNA443",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "5.3",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "9.6",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.3",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:19.444
+!MESSAGE XSDB Command: [::hsi::utils::get_addr_ranges -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:19.444
+!MESSAGE XSDB command with result: [::hsi::utils::get_addr_ranges -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x41C00000",
+"high": "0x41C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+},
+"axi4_RNA443_0_S00_AXI": {"name": "axi4_RNA443_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0000FFFF",
+"size": "65536",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:19.460
+!MESSAGE XSDB Command: [::hsi::utils::get_all_register_data -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:41:19.491
+!MESSAGE XSDB command with result: [::hsi::utils::get_all_register_data -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi4_RNA443_0": {},
+"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "16",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "16",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "16",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "16",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_timer_0": {"TCSR0": {"description": "Timer 0 Control and Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "32",
+"fields": {"MDT0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Mode
+0 - Timer mode is generate
+1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT0": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 0
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT0": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 0
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT0": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 0
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT0": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 0.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.      0 = Hold counter or capture value. The TLR must be read before providing the external capture.      1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD0": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 0      0 = No load      1 = Loads timer with value in TLR0 Setting this bit loads timer/counter register (TCR0) with a specified value in the timer/counter load register (TLR0).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT0) bit in TCSR0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT0": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 0
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T0INT) in TCSR0.      0 - Disable interrupt signal   1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT0": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 0
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T0INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT   1 - Clear T0INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA0": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 0      0 - Disable pulse width modulation      1 - Enable pulse width modulation PWM requires using Timer 0 and Timer 1 together as a pair.  Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0 and C_GEN0_ASSERT and C_GEN1_ASSERT must be 1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run) This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. 
+Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CASC": {"access": "read-write",
+"bit_offset": "11",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable cascade mode of timers      0 - Disable cascaded operation      1 - Enable cascaded operation Cascaded operation requires using Timer 0 and Timer 1 together as a pair.  The counting event for the Timer 1 is when the Timer 0 rolls over from all 1s to all 0s or vice-versa when counting down.
+TLR0 and TLR1 are used for lower 32-bit and higher 32-bit respectively. Similarly, TCR0 contains lower 32-bits for the 64-bit counter and TCR1 contains the higher 32-bits.
+Only TCSR0 is valid for both the timer/counters in this mode.
+This CASC bit must be set before enabling the timer/counter.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TLR0": {"description": "Timer 0 Load Register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "32",
+"fields": {"TCLR0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TCR0": {"description": "Timer 0 Counter Register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"fields": {"TCR0": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TCSR1": {"description": "Timer 1 Control and Status Register",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "32",
+"fields": {"MDT1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Mode
+  0 - Timer mode is generate
+  1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT1": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 1
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT1": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 1
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT1": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 1
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT1": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 1.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.
+0 = Hold counter or capture value. The TLR must be read before providing the external capture.   
+1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD1": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 1      0 = No load      1 = Loads timer with value in TLR1 Setting this bit loads timer/counter register (TCR1) with a specified value in the timer/counter load register (TLR1).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT1) bit in TCSR1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT1": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 1
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T1INT) in TCSR1.      0 - Disable interrupt signal      1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT1": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 1
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T1INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT      1 - Clear T1INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA1": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 1      0 - Disable pulse width modulation      1 - Enable pulse width modulation  PWM requires using Timer 0 and Timer 1 together as a pair. Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run)  This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TLR1": {"description": "Timer 1 Load Register",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "32",
+"fields": {"TCLR1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TCR1": {"description": "Timer 1 Counter Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "32",
+"fields": {"TCR1": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.057
+!MESSAGE XSDB Command: [hsi::utils::get_supported_os -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.073
+!MESSAGE XSDB command with result: [hsi::utils::get_supported_os -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"freertos823_xilinx_v1_1": {"name": "freertos823_xilinx",
+"version": "1.1",
+"desc": "FreeRTOS is a market leading open source RTOS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/ThirdParty/bsp/freertos823_xilinx_v1_1",
+},
+"standalone_v5_5": {"name": "standalone",
+"version": "5.5",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/bsp/standalone_v5_5",
+},
+"xilkernel_v6_3": {"name": "xilkernel",
+"version": "6.3",
+"desc": "Xilkernel is a simple and lightweight kernel that provides POSIX style services such as scheduling, threads, synchronization, message passing and timers. The kernel requires a programmable timer that is either built-in or attached to the processor as a peripheral.",
+"compilerflags": "-D __XMK__",
+"linkerflags": "-lxilkernel",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/bsp/xilkernel_v6_3",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.104
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.104
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.119
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.119
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.119
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.135
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.151
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.151
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.151
+!MESSAGE XSDB Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.213
+!MESSAGE XSDB command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel freertos823_xilinx",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos823_xilinx",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos823_xilinx",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos823_xilinx standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos823_xilinx standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos823_xilinx standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family & serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
+"supp_os": "standalone xilkernel",
+"path": "",
+"os": "standalone",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.213
+!MESSAGE XSDB Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.307
+!MESSAGE XSDB command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.322
+!MESSAGE XSDB Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:52.338
+!MESSAGE XSDB command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:56.979
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:56.994
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:57.557
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:57.573
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:57.713
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:57.729
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:58.244
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:58.260
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:59.213
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:59.229
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:59.354
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:59.369
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:59.604
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:57:59.604
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:00.776
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:00.791
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:00.901
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:00.916
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:01.104
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:01.119
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:03.057
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:03.088
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:07.635
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:07.651
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:08.010
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:08.026
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:08.213
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:08.229
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:08.323
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:08.338
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:08.823
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:08.838
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:09.073
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:09.088
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:09.370
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:09.385
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:13.854
+!MESSAGE XSDB Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:13.916
+!MESSAGE XSDB command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel freertos823_xilinx",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos823_xilinx",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos823_xilinx",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos823_xilinx standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos823_xilinx standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos823_xilinx standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family & serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
+"supp_os": "standalone xilkernel",
+"path": "",
+"os": "standalone",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:13.916
+!MESSAGE XSDB Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:13.932
+!MESSAGE XSDB command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:15.338
+!MESSAGE XSDB Command: [::hsi::utils::write_sw_mss -hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf -sw ublaze_axiRNA443_bsp -dir C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp -processor microblaze_0 -os standalone -app empty_application], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:15.354
+!MESSAGE XSDB command with result: [::hsi::utils::write_sw_mss -hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf -sw ublaze_axiRNA443_bsp -dir C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp -processor microblaze_0 -os standalone -app empty_application], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:15.620
+!MESSAGE XSDB Command: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:15.620
+!MESSAGE XSDB command with result: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:15.635
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:15.635
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "5.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:15.635
+!MESSAGE XSDB Command: [::hsi::utils::generate_bsp_sources C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:28.880
+!MESSAGE XSDB command with result: [::hsi::utils::generate_bsp_sources C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.145
+!MESSAGE XSDB Command: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.145
+!MESSAGE XSDB command with result: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.145
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.161
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "5.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.208
+!MESSAGE XSDB Command: [::hsi::utils::get_connected_periphs C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.223
+!MESSAGE XSDB command with result: [::hsi::utils::get_connected_periphs C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, axi4_RNA443_0 axi_gpio_0 axi_timer_0 axi_uartlite_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.239
+!MESSAGE XSDB Command: [::hsi::utils::get_drivers_for_sw -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.255
+!MESSAGE XSDB command with result: [::hsi::utils::get_drivers_for_sw -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"axi4_RNA443_0": {"name": "axi4_RNA443",
+"ver": "1.0",
+},
+"axi_gpio_0": {"name": "gpio",
+"ver": "4.1",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.1",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.1",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.1",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.5",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.270
+!MESSAGE XSDB Command: [hsi::utils::get_drivers_for_hw -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.317
+!MESSAGE XSDB command with result: [hsi::utils::get_drivers_for_hw -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi4_RNA443_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"axi4_RNA443_v1_0": {"name": "axi4_RNA443",
+"version": "1.0",
+"repo": "C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/drivers/axi4_RNA443_v1_0",
+},
+},
+},
+"axi_gpio_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_1": {"name": "gpio",
+"version": "4.1",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_1",
+},
+},
+},
+"axi_timer_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"tmrctr_v4_1": {"name": "tmrctr",
+"version": "4.1",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/tmrctr_v4_1",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+},
+},
+},
+"clk_wiz_1": {"version": "5.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_0": {"name": "clk_wiz",
+"version": "1.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_0",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+},
+},
+},
+"microblaze_0": {"version": "9.6",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_5": {"name": "cpu",
+"version": "2.5",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_5",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_1": {"name": "bram",
+"version": "4.1",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_1",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_1": {"name": "bram",
+"version": "4.1",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_1",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2016.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.567
+!MESSAGE XSDB Command: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.583
+!MESSAGE XSDB command with result: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.583
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.583
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "5.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.598
+!MESSAGE XSDB Command: [::hsi::utils::get_libs_from_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.598
+!MESSAGE XSDB command with result: [::hsi::utils::get_libs_from_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.614
+!MESSAGE XSDB Command: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:29.614
+!MESSAGE XSDB command with result: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:32.927
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:32.942
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:32.958
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:32.973
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:32.973
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:32.989
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.005
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.020
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.036
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.036
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.036
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.051
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.051
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.067
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.067
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.083
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.083
+!MESSAGE XSDB Command: [::hsi::utils::get_libs_from_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.098
+!MESSAGE XSDB command with result: [::hsi::utils::get_libs_from_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.098
+!MESSAGE XSDB Command: [::hsi::utils::get_sw_libs -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.114
+!MESSAGE XSDB command with result: [::hsi::utils::get_sw_libs -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.114
+!MESSAGE XSDB Command: [::hsi::utils::get_libs_from_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.130
+!MESSAGE XSDB command with result: [::hsi::utils::get_libs_from_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.130
+!MESSAGE XSDB Command: [::hsi::utils::get_sw_libs -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.130
+!MESSAGE XSDB command with result: [::hsi::utils::get_sw_libs -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.130
+!MESSAGE XSDB Command: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.145
+!MESSAGE XSDB command with result: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.192
+!MESSAGE XSDB Command: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.208
+!MESSAGE XSDB command with result: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.208
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.208
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "5.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.208
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.223
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.223
+!MESSAGE XSDB Command: [::hsi::utils::opensw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.223
+!MESSAGE XSDB command with result: [::hsi::utils::opensw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.223
+!MESSAGE XSDB Command: [::hsi::utils::generate_app_template -hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf -sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss -app empty_application -processor microblaze_0 -os standalone -dir C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443/src], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.312
+!MESSAGE XSDB command with result: [::hsi::utils::generate_app_template -hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf -sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss -app empty_application -processor microblaze_0 -os standalone -dir C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443/src], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.796
+!MESSAGE XSDB Command: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.812
+!MESSAGE XSDB command with result: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.812
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.827
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "5.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.843
+!MESSAGE XSDB Command: [::hsi::utils::get_libs_from_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.843
+!MESSAGE XSDB command with result: [::hsi::utils::get_libs_from_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.874
+!MESSAGE XSDB Command: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 04:58:33.874
+!MESSAGE XSDB command with result: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:34.530
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:35.421
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:35.437
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:36.155
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:36.218
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:36.640
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:36.655
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:37.077
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:37.093
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:37.734
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:37.765
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:38.593
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:38.609
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:39.218
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:39.265
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:39.687
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:39.687
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:40.046
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:42.984
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:43.421
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:43.421
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:43.734
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:45.593
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:45.609
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:45.952
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:46.687
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:46.702
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:47.015
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:48.999
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:49.015
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:49.312
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:59.703
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:58:59.703
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:59:00.062
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:59:02.468
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:59:02.499
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:59:02.765
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:59:04.968
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-05-28 04:59:05.015
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-28 04:59:05.491
+!MESSAGE Indexed 'ublaze_axiRNA443' (0 sources, 0 headers) in 0,047 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-28 04:59:06.694
+!MESSAGE Indexed 'ublaze_axiRNA443_bsp' (55 sources, 88 headers) in 1,17 sec: 1.915 declarations; 7.453 references; 40 unresolved inclusions; 5 syntax errors; 30 unresolved names (0,32%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.591
+!MESSAGE XSDB Command: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.607
+!MESSAGE XSDB command with result: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.607
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.607
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "5.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.622
+!MESSAGE XSDB Command: [::hsi::utils::get_libs_from_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.622
+!MESSAGE XSDB command with result: [::hsi::utils::get_libs_from_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.622
+!MESSAGE XSDB Command: [::hsi::utils::get_sw_libs -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.638
+!MESSAGE XSDB command with result: [::hsi::utils::get_sw_libs -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.638
+!MESSAGE XSDB Command: [::hsi::utils::get_drivers_for_sw -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.638
+!MESSAGE XSDB command with result: [::hsi::utils::get_drivers_for_sw -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"axi4_RNA443_0": {"name": "axi4_RNA443",
+"ver": "1.0",
+},
+"axi_gpio_0": {"name": "gpio",
+"ver": "4.1",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.1",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.1",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.1",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.5",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.654
+!MESSAGE XSDB Command: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:01:05.654
+!MESSAGE XSDB command with result: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:12.795
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_files_on_hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf bit], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:12.795
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_files_on_hw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf bit], Result: [null, ublaze_axiRNA443_wrapper.bit]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:12.811
+!MESSAGE XSDB Command: [::hsi::utils::get_addr_tag_info -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:12.811
+!MESSAGE XSDB command with result: [::hsi::utils::get_addr_tag_info -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "ublaze_axiRNA443_i/microblaze_0:ublaze_axiRNA443_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:15.998
+!MESSAGE XSDB Command: [::hsi::utils::get_bram_blocks C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:16.014
+!MESSAGE XSDB command with result: [::hsi::utils::get_bram_blocks C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:16.030
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:16.030
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_param_value C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:32.432
+!MESSAGE XSDB Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:34.753
+!MESSAGE XSDB command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:34.784
+!MESSAGE XSDB Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:36.018
+!MESSAGE XSDB command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183A27B44A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:36.018
+!MESSAGE XSDB Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A27B44A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:36.034
+!MESSAGE XSDB command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183A27B44A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:36.034
+!MESSAGE XSDB Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A27B44A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:36.456
+!MESSAGE XSDB command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183A27B44A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:36.456
+!MESSAGE XSDB Command: [fpga -file C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:38.327
+!MESSAGE XSDB command with result: [fpga -file C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:39.156
+!MESSAGE XSDB Command: [::hsi::utils::get_bram_blocks C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:39.171
+!MESSAGE XSDB command with result: [::hsi::utils::get_bram_blocks C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:54.468
+!MESSAGE XSDB Command: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:54.484
+!MESSAGE XSDB command with result: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:54.499
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:54.515
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "5.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:54.515
+!MESSAGE XSDB Command: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:54.531
+!MESSAGE XSDB command with result: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:57.546
+!MESSAGE XSDB Command: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:57.546
+!MESSAGE XSDB command with result: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:57.562
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:57.562
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "5.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:57.562
+!MESSAGE XSDB Command: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:08:57.578
+!MESSAGE XSDB command with result: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:09:55.128
+!MESSAGE XSDB Command: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:09:55.128
+!MESSAGE XSDB command with result: [ ::hsi::utils::set_current_hw_sw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:09:55.128
+!MESSAGE XSDB Command: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:09:55.144
+!MESSAGE XSDB command with result: [::hsi::utils::get_hw_sw_details -json C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_wrapper_hw_platform_0/system.hdf C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "5.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:09:55.144
+!MESSAGE XSDB Command: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-05-28 05:09:55.159
+!MESSAGE XSDB command with result: [::hsi::utils::closesw C:/FPGAprojects/PCR2019/ublaze_axiRNA/ublaze_axiRNA.sdk/ublaze_axiRNA443_bsp/system.mss], Result: [null, ]. Thread: main

@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: 28 de mai de 2019
+ *      Author: DanielMauricio
+ */
+
+#include <stdio.h>
+#include "xil_printf.h"
+#include "axi4_RNA443.h"
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xbasic_types.h"
+
+union
+{
+    Xuint8 u8[4];
+    Xuint32 u32;
+    Xfloat32 f32;
+}unT;
