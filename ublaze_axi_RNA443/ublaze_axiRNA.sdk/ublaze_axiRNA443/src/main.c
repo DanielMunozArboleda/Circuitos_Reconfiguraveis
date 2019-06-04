@@ -15,8 +15,7 @@
 
 union
 {
-    Xuint8 u8[4];
-    Xuint32 u32;
+    Xuint8 u8[4];  Xuint32 u32;
     Xfloat32 f32;
 }unT;
 
@@ -53,10 +52,10 @@ int main()
     unT.u32=AXI4_RNA443_mReadReg(XPAR_AXI4_RNA443_0_S00_AXI_BASEADDR, 16);
     out_neuron1 = unT.f32;
 
-    unT.u32=AXI4_RNA443_mReadReg(XPAR_AXI4_RNA443_0_S00_AXI_BASEADDR, 16);
+    unT.u32=AXI4_RNA443_mReadReg(XPAR_AXI4_RNA443_0_S00_AXI_BASEADDR, 20);
     out_neuron2 = unT.f32;
 
-    unT.u32=AXI4_RNA443_mReadReg(XPAR_AXI4_RNA443_0_S00_AXI_BASEADDR, 16);
+    unT.u32=AXI4_RNA443_mReadReg(XPAR_AXI4_RNA443_0_S00_AXI_BASEADDR, 24);
     out_neuron3 = unT.f32;
 
     // stop timer
